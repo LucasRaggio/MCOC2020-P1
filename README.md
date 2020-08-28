@@ -6,7 +6,9 @@
 
 
 
-## Entrega2 - Primeras predicciones con la EDM básica del satélite
+## Entrega2 -  Primeras predicciones con la EDM básica del satélite
+###### ⚠️Codigo en carpeta 'Entrega 2'⚠️
+###### ⚠️Codigo en carpeta 'Entrega 2'⚠️
 
 Para que el satélite A pueda orbitar alrededor de la tierra sin que ingrese nuevamente a la atmósfera es necesario lanzarlo desde 700 kilómetros de la superficie de la tierra con una velocidad tangencial de 6819.45 m/s  .  Para conocer la posición y velocidad del satélite en función de parámetros iniciales  se utilizo la teoría gravitacional de Newton y la segunda ley de Newton (ley fundamental de la dinámica).
 
