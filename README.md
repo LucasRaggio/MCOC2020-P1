@@ -9,7 +9,6 @@
 ## Entrega2 - Primeras predicciones con la EDM básica del satélite
 
 
-¿Cuanto debe valer LaTeX: v_tv t de modo que el satélite efectivamente orbite sin caer de vuelta dentro de la atmosfera (asuma que esta comienza a una altura de 80km) ?
 
 
 ## Entrega3 - I/O de vectores de estado y predicciones usando la EDM básica
