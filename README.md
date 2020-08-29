@@ -32,6 +32,7 @@ Finalmente, se gráfico la distancia al centro de la tierra del satélite vs tie
 
 ## Entrega3 - I/O de vectores de estado y predicciones usando la EDM básica
 
+1658006.2226918892 metros 
 
 ## Entrega4 - Implementar una mejora a la EDM
 
