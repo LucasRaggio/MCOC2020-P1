@@ -36,6 +36,16 @@ Finalmente, se gráfico la distancia al centro de la tierra del satélite vs tie
 
 ## Entrega4 - Implementar una mejora a la EDM
 
+En la figura anterior se puede observar dos gráficos, (1) Corresponde a la solución real y mediante Odeint de la ecuación diferencial de un oscilador armonico  .  Se puede ver que el comportamiento del oscilador es subamortiguado (Tiende a la posición 0 en el tiempo mediante oscilaciones). Ambos metodos tienen una diferencia del 0,1 %,  increíble. 
+
+Por otro lado, en el gráfico de la derecha se presenta un método de Euler. Este método se mejoro  diviendo un intervalo de tiempo en tiempos mas pequeños (es lo que hace Odeint pero de manera optimizada y con algoritmos Runge -kutta y mejores).
+
+ Nsubdivisiones = 1 (verde, linea punteada), Nsubdivisiones = 10 (rojo, linea punteada) y  Nsubdivisiones = 100 (naranjo, linea punteada).
+
+Se puede ver que para N > 10 la solución del método Euler tiende a la solución real, sin embargo, esto no es siempre así.  Para NN = 1 se encuentra lejos de la solución. 
+
+Tambien se realizo este método para el oscilador armonico simple pero se necesita subdivisiones de mayor tamaño. 
+
 ## Entrega5 - Estudio de convergencia y desempeño
 
 ## Entrega6 - Entrega inicial de código
