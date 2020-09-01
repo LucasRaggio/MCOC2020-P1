@@ -36,6 +36,10 @@ Finalmente, se gráfico la distancia al centro de la tierra del satélite vs tie
 
 ## Entrega4 - Implementar una mejora a la EDM
 
+
+![alt text](https://github.com/LucasRaggio/MCOC2020-P1/blob/master/Entrega%204/Grafico%20E4.png?raw=true)
+
+
 En la figura anterior se puede observar dos gráficos, (1) Corresponde a la solución real y mediante Odeint de la ecuación diferencial de un oscilador armonico  .  Se puede ver que el comportamiento del oscilador es subamortiguado (Tiende a la posición 0 en el tiempo mediante oscilaciones). Ambos metodos tienen una diferencia del 0,1 %,  increíble. 
 
 Por otro lado, en el gráfico de la derecha se presenta un método de Euler. Este método se mejoro  diviendo un intervalo de tiempo en tiempos mas pequeños (es lo que hace Odeint pero de manera optimizada y con algoritmos Runge -kutta y mejores).
