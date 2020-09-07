@@ -63,7 +63,7 @@ Para ver en más detalle, el siguiente grafico presenta en términos de la dista
 
 Grafico deriva Basico 
 
-El error acumulado por culpa de tener un modelo gravitational inexacto o muy simplificado resulta de alrededor de 2000 km en 24 horas.
+El error acumulado por culpa de tener un modelo gravitational inexacto o muy simplificado resulta de alrededor de 2000 km en 24 horas. El tiempo de ejecucion es de 1.488130 Segundos. 
 
 
 ###### b)
@@ -104,6 +104,29 @@ Para Buscar el N tal que se cumpla el 1% Se demoraba mucho en ejecutar el progra
 ###### d)
 
 (5pt) Implemente las correcciones J2 y J3. Repita los gráficos de arriba para su caso particular. ¿Cuánta deriva incurre al agregar las correcciones J2 y J3? ¿Cuanto se demora su código en correr?
+
+Anteriormente se analizo la prediccion asumiendo que la tierra es completamente esferica y la fuerza de gravedad simplificada. Ahora corregiremos esos supuestos mediante coeficientes J2(la tierra es una elipsoide achatada) y J3. 
+
+Se presenta la posición (x,y,z) y deriva entre la predicción y lo real en el tiempo del vector de estado de Sentinel 1A/B utilizadno la corrección J2. El tiempo de ejecucion del programa es de: 1.43352465 Segundos. 
+
+Figura J2 con Deriva 
+
+Hay una clara mejora respecto a lo analizado en la parte (a). 1945 Km vs 6.4 Km. Impresionante. 
+
+
+Se presenta la posición (x,y,z)  y deriva entre la predicción en el tiempo del vector de estado de Sentinel 1A/B utilizadno la corrección J3 y J2. El tiempo de ejecucion del programa es de: 1.4531755 Segundos. 
+
+
+Figura J3 y J2  
+
+
+Hay una clara mejora respecto a lo analizado en la parte (a). 1945 Km vs 7.9 Km, sin embargo, al añadir la mejora J3 se obtuvo un peor resultado que solo utilizando la correccion J2. ¿Que pasa con J3? Comparemos J3 vs sin correccion. A continuacion se presenta la posición (x,y,z)  y deriva entre la predicción en el tiempo del vector de estado de Sentinel 1A/B utilizadno la corrección J3. El tiempo de ejecucion del programa es de: 1.631755 Segundos. 
+
+
+
+
+
+
 
 
 
