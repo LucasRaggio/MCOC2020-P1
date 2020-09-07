@@ -85,11 +85,27 @@ Tiempo que demora Odeint 0.2956311 Segundos
 Tiempo que demora Euler  0.6195548 Segundos
 
 
-Para ver mayor detalle entre ambos metodos, a continuacion se presenta la pos de la prediccion del satelite en casa caso. 
+Para ver mayor detalle entre ambos metodos, a continuacion se presenta la pos de la prediccion del satelite en cada caso. 
 
 Foto Euler Vs Odeint 
 
-¿Cuantas subdivisiones hay que usar para que la predicción con eulerint al final del tiempo esté en menos de un 1% de error? Grafique la deriva en el tiempo. Comente con respecto del tiempo de ejecución de eulerint ahora.
+###### c)
+Para encontrar las subdivisiones para que la predicción con eulerint al final del tiempo esté en menos de un 1% de error en comparación a Odeint, se utilizo un método de aproximación nùmerica. Se realizaron subdivisiones = 10, .... 100, 1000...1500. Para N = 1000, se presento unn error del 26%, un tiempo de ejecución de 566 segundos y una distancia maxima entre ambos satelites de 1136 kilómetros. 
+
+Para una subdivision de N =1500, se obtuvo un tiempo de ejecucion de 825 segundos para el caso de Euler y 0,2 segundos para el caso de Odeint. La distancia Deriva entre Eulerint y Odeint al finnal del tramo es de 758, 4 Km. A continuacion se presenta el grafico de la deriva y la posicion de la prediccion del satelite en cada caso. 
+
+Grafico Distancia Euler Vs ODeint. 
+
+El metodo de Odeint es CLARAMENTE superior al método de Euler, esto se debe a que la funcion de Odeint fue elaborada con un codigo de bajo nivel. Ademas, para Euler Int se debe buscar manualmente Subdivisiones para mejorar la solucion. 
+
+Para Buscar el N tal que se cumpla el 1% Se demoraba mucho en ejecutar el programa. 
+
+
+###### d)
+
+(5pt) Implemente las correcciones J2 y J3. Repita los gráficos de arriba para su caso particular. ¿Cuánta deriva incurre al agregar las correcciones J2 y J3? ¿Cuanto se demora su código en correr?
+
+
 
 ## Entrega6 - Entrega inicial de código
 
