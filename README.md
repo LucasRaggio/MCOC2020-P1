@@ -52,6 +52,14 @@ Tambien se realizo este método para el oscilador armonico simple pero se necesi
 
 ## Entrega5 - Estudio de convergencia y desempeño
 
+###### a)
+En la siguiente Grafica se presenta la posición (x,y,z) en el tiempo del vector de estado de Sentinel 1A/B que me tocó. Para esto, descargue y utilice la función leer_eof.py para poder trabajar con los archivos EOF. 
+
+Grafico 
+
+Donde la línea azul es la orbita real (obtenida del archivo EOF) y la naranja es la predicha. Se puede observar que poco a poco la distancia entre la prediccion y ubicacion real aumenta, esto se debe a que para este modelo asumio que la tierra es completamente esferica y la fuerza de gravedad simplificada.  
+
+
 ## Entrega6 - Entrega inicial de código
 
 ## Entrega Final
