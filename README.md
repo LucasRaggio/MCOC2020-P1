@@ -59,6 +59,37 @@ Grafico
 
 Donde la línea azul es la orbita real (obtenida del archivo EOF) y la naranja es la predicha. Se puede observar que poco a poco la distancia entre la prediccion y ubicacion real aumenta, esto se debe a que para este modelo asumio que la tierra es completamente esferica y la fuerza de gravedad simplificada.  
 
+Para ver en más detalle, el siguiente grafico presenta en términos de la distancia entre satélites medida en el tiempo.
+
+Grafico deriva Basico 
+
+El error acumulado por culpa de tener un modelo gravitational inexacto o muy simplificado resulta de alrededor de 2000 km en 24 horas.
+
+
+###### b)
+Usando la condición inicial (primer OSV) del archivo adjunto en la carpeta 'Entrega 5', se compara la solución entre odeint y eulerint. Se usa Nsubdiviciones=1. A continuacion se grafica la deriva en el tiempo:
+
+Grafico de la deriva entre Euler y Odeint
+
+El error por culpa del método inexacto o muy simplificado de Euler Vs Odeint resulta de alrededor de 20000 km en 24 horas. Donde la distancia maxima entre ambas soluciones (prediciones) es de 20881.1 Km. 
+
+
+###### ¿Cuánto deriva eulerint de odeint en este caso al final del tiempo? 
+
+Deriva entre eulerint y odeint al final del tiempo =  20093.3 Km
+
+###### ¿Cuanto se demora odeint y eulerint respectivamente en producir los resultados?
+
+Tiempo que demora Odeint 0.2956311 Segundos
+
+Tiempo que demora Euler  0.6195548 Segundos
+
+
+Para ver mayor detalle entre ambos metodos, a continuacion se presenta la pos de la prediccion del satelite en casa caso. 
+
+Foto Euler Vs Odeint 
+
+¿Cuantas subdivisiones hay que usar para que la predicción con eulerint al final del tiempo esté en menos de un 1% de error? Grafique la deriva en el tiempo. Comente con respecto del tiempo de ejecución de eulerint ahora.
 
 ## Entrega6 - Entrega inicial de código
 
