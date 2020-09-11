@@ -137,7 +137,19 @@ Hay una clara mejora respecto a lo analizado en la parte (a). 1945 Km vs 7.9 Km,
 
 
 
-## Entrega6 - Entrega inicial de código
+## Entrega 6 y 7  - ENTREGA FINAL 🇨🇱 CONCURSO MUNDIAL 🌎
 
-## Entrega Final
+Luego de multples analisis y estudios para obtener una buena aproximacion de la posicion del satelite. Se decidio por un codigo que tenga una aproximacion de alrededor de 10 kilometros (o menor) para 24  pero sin disminuir la velocidad de ejecuion del codigo. Por lo tanto, mi apuesta va totalmente por un codigo veloz pero sin tanta precision. 
+
+
+Para esto SOLO se realizo la correccion J2 (la tierra es una elipsoide achatada). Hay que arriesgarse. 
+
+A continuacion Se presenta la posición (x,y,z) y deriva entre la predicción y lo real en el tiempo del vector de estado de Sentinel 1A/B utilizadno la corrección J2. El tiempo de ejecucion del programa es de: 1.43352465 Segundos. 
+
+![alt text](https://github.com/LucasRaggio/MCOC2020-P1/blob/master/Entrega%205/Fotos/Pos%20CJ2.png?raw=true) 
+
+![alt text](https://github.com/LucasRaggio/MCOC2020-P1/blob/master/Entrega%205/Fotos/Distancia%20J2.png?raw=true) 
+
+Hay una clara mejora respecto al modelo que considera la tierra como una esfera perfecta  1945 Km vs 6.4 Km. Impresionante. 
+
 
